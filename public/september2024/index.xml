@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>September2024s on Will C. Smith</title>
+    <link>http://localhost:1313/WillCSmith/september2024/</link>
+    <description>Recent content in September2024s on Will C. Smith</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Sep 2024 00:36:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/WillCSmith/september2024/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FirstPost</title>
+      <link>http://localhost:1313/WillCSmith/september2024/firstpost/</link>
+      <pubDate>Thu, 05 Sep 2024 00:36:33 -0400</pubDate>
+      <guid>http://localhost:1313/WillCSmith/september2024/firstpost/</guid>
+      <description>&lt;h1 id=&#34;yes-sir-and-yes-maam&#34;&gt;Yes sir and Yes Ma&amp;rsquo;am&lt;/h1&gt;&#xA;&lt;p&gt;I have been wanting to try Hugo for a bit now so I finally decided to give it a try. The security aspect of not having a lot of surface area where vulnerabilities can be lurking is very appealing as well as just having a quick, responsive website.&lt;/p&gt;&#xA;&lt;p&gt;So, this will be my personal website where I will ramble about various things, mostly what I am studying.  Currently, I am studying for the Microsoft MS900.  Also, I want to be well acquainted with the CompTIA A+ material but am not sure if I am going to actually take the tests.  It might suffice to just be able to pass 7 or 8 practice tests.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

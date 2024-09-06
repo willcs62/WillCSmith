@@ -1,0 +1,5 @@
+baseURL = "https://willcs62.github.io/WillCSmith/"
+languageCode = "en-us"
+title = "Will C. Smith"
+theme = "mainroad"
+paginate = "10" # Number of posts per page
