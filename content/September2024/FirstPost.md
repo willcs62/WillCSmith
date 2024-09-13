@@ -1,5 +1,5 @@
 +++
-title = 'Yes sir and Yes Ma'am'
+title = "Yes sir and Yes Ma'am"
 date = 2024-09-05T00:36:33-04:00
 draft = false
 +++

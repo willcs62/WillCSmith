@@ -1,7 +1,7 @@
 +++
 title = 'How To set Up Linphone with SIP Credentials Using TLS'
 date = 2024-09-12T23:30:13-04:00
-draft = true
+draft = false
 +++
 
 So I decided to get a VOIP or Voice Over IP phone number for several reasons.  I don't have any illusions about actually remaining anonymous on the internet or anywhere else.  Gradually, I hope to expand my skillset, however, so that maybe every little thing I do is not tracked. If you find this interesting then check out Rob Braxman at [BraxMe](https://brax.me/).
@@ -21,11 +21,11 @@ Under USERNAME enter the username given by your SIP provider.  Next enter the pa
 
 sip.example.com
 
-If you are going to stay with UDP which is more forgiving and ever so slightly faster then this is the end of the line.  You can now make calls, text and even video call with your [Linphone](https://linphone.org) app.  
+Your SIP provider probably has a slightly diffeent address for you based on whether you are using UDPor TLS so enter the righto one!  If you are going to stay with UDP which is more forgiving and ever so slightly faster then this is the end of the line.  You can now make calls, text and even video call with your [Linphone](https://linphone.org) app.  
 
 That is cool if you ask me!
 
-However, let's be a little paranoid because this is the internet in 2024.  We will go ahead and set up TLS with TCP.
+However, let's be a little paranoid because this is the internet in 2024.  We will go ahead and set up TLS with TCP because security!
 
 Go back to the main menu and select SETTINGS from the menu icon.  Now select CALL.  We will now set MEDIA ENCRYPTION to SRTP and turn on MEDIA ENCRYPTION MANDATORY.  Lastly, click on the CONNECTED next to the green circle.  On the resultant screen,  change the TRANSPORT OPTION to TLS.
 
