@@ -1,9 +1,8 @@
 +++
-title = 'First Post'
+title = 'Yes sir and Yes Ma'am'
 date = 2024-09-05T00:36:33-04:00
 draft = false
 +++
-# Yes sir and Yes Ma'am
 
 I have been wanting to try Hugo for a bit now so I finally decided to give it a try. The security aspect of not having a lot of surface area where vulnerabilities can be lurking is very appealing as well as just having a quick, responsive website.  
 
