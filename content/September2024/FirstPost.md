@@ -13,3 +13,5 @@ We will see.
 I would like this site to evolve into me giving real value by throwing down some serious tutorial wisdom.  That will come in time.  Right now I am going to talk about what I am studying and the projects I have undertaken, successfully or unsuccessfully.
 
 Now let's see what this looks like when it's actually up!
+
+[EOF]

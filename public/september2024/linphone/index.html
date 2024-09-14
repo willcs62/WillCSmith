@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>How To set Up Linphone with SIP Credentials Using TLS - Will C. Smith</title>
@@ -15,6 +15,7 @@
 	
 
 	<link rel="shortcut icon" href="/favicon.ico">
+		
 		
 </head>
 <body class="body">
@@ -45,17 +46,47 @@
 		<div class="content post__content clearfix">
 			<p>So I decided to get a VOIP or Voice Over IP phone number for several reasons.  I don&rsquo;t have any illusions about actually remaining anonymous on the internet or anywhere else.  Gradually, I hope to expand my skillset, however, so that maybe every little thing I do is not tracked. If you find this interesting then check out Rob Braxman at <a href="https://brax.me/">BraxMe</a>.</p>
 <p>After you have acquired a VOIP number and SIP credentials, you will need a way to use them.  A softphone, like <a href="https://linphone.org">Linphone</a>, which is open source under the GNUv3 licence, is perfect.  You do not actually need a physical phone for your number.  You can use your PC or chromebook even.  <a href="https://linphone.org">Linphone</a> is available for Linux, Windows, MacOS, iOS and Android.  I use my VOIP number as my main number now.</p>
-<p>Firstly, <a href="https://new.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner">download Linphone</a> to your device or install it from, for example Ubuntu repository like so&hellip;</p>
-<p>sudo apt update
-sudo apt install linphone</p>
+<p>Firstly, <a href="https://new.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner">download Linphone</a> to your device or install it from, for example, Ubuntu repository like so&hellip;</p>
+<p>sudo apt update</p>
+<p>sudo apt install linphone</p>
 <p>Then search for linphone using whatever desktop manager you have installed.  Once this is accomplished and you have the app open, tap on the menu icon (the 4 parallel horizontal bars) at the top left.</p>
-<p>Next choose ASSISTANT. On the ASSISTANT screen, tap USE SIP ACCOUNT and click I UNDERSTAND in response to the displayed message.  Here is where we enter our SIP credentials.</p>
+<p><figure><img src="/images/linphone/Screenshot_20240913-132320.png" width="250">
+</figure>
+
+<figure><img src="/images/linphone/Screenshot_20240913-220316.png" width="250">
+</figure>
+</p>
+<p>Next choose ASSISTANT. On the ASSISTANT screen, tap USE SIP ACCOUNT.</p>
+<figure><img src="/images/linphone/Screenshot_20240913-132335.png" width="250">
+</figure>
+
+<p>Click I UNDERSTAND in response to the displayed message.  <figure><img src="/images/linphone/Screenshot_20240913-132350.png" width="250">
+</figure>
+   Here is where we enter our SIP credentials.</p>
+<figure><img src="/images/linphone/Screenshot_20240913-132406.png" width="250">
+</figure>
+
 <p>Under USERNAME enter the username given by your SIP provider.  Next enter the password.  Now enter your DOMAIN or REALM.  This will look something like</p>
 <p>sip.example.com</p>
-<p>If you are going to stay with UDP which is more forgiving and ever so slightly faster then this is the end of the line.  You can now make calls, text and even video call with your <a href="https://linphone.org">Linphone</a> app.</p>
+<p>Your SIP provider probably has a slightly different address for you based on whether you are using UDP or TLS so enter the right one!  If you are going to stay with UDP which is more forgiving and ever so slightly faster then this is the end of the line.  You can now make calls, text and even video call with your <a href="https://linphone.org">Linphone</a> app.</p>
 <p>That is cool if you ask me!</p>
-<p>However, let&rsquo;s be a little paranoid because this is the internet in 2024.  We will go ahead and set up TLS with TCP.</p>
-<p>Go back to the main menu and select SETTINGS from the menu icon.  Now select CALL.  We will now set MEDIA ENCRYPTION to SRTP and turn on MEDIA ENCRYPTION MANDATORY.  Lastly, click on the CONNECTED next to the green circle.  On the resultant screen,  change the TRANSPORT OPTION to TLS.</p>
+<p>However, let&rsquo;s be a little paranoid because this is the internet in 2024.  We will go ahead and set up TLS with TCP because security!</p>
+<p>Go back to the main menu and select SETTINGS from the menu icon.</p>
+<figure><img src="/images/linphone/Screenshot_20240913-132424.png" width="250">
+</figure>
+
+<p>Now select CALL.</p>
+<figure><img src="/images/linphone/Screenshot_20240913-132440.png" width="250">
+ </figure>
+
+<p>We will now set MEDIA ENCRYPTION to SRTP and turn on MEDIA ENCRYPTION MANDATORY.</p>
+<figure><img src="/images/linphone/Screenshot_20240913-132440.png" width="250">
+ </figure>
+
+<p>Lastly, click on the CONNECTED next to the green circle.  On the resultant screen,  change the TRANSPORT OPTION to TLS.</p>
+<figure><img src="/images/linphone/Screenshot_20240913-220408.png" width="250">
+ </figure>
+
 <p>And that&rsquo;s it!  Hope this helps!</p>
 
 		</div>

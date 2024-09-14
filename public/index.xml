@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Will C. Smith</title>
-    <link>http://localhost:1313/</link>
+    <link>https://willcsmith.live/</link>
     <description>Recent content on Will C. Smith</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Sep 2024 23:30:13 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://willcsmith.live/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To set Up Linphone with SIP Credentials Using TLS</title>
-      <link>http://localhost:1313/september2024/linphone/</link>
+      <link>https://willcsmith.live/september2024/linphone/</link>
       <pubDate>Thu, 12 Sep 2024 23:30:13 -0400</pubDate>
-      <guid>http://localhost:1313/september2024/linphone/</guid>
+      <guid>https://willcsmith.live/september2024/linphone/</guid>
       <description>&lt;p&gt;So I decided to get a VOIP or Voice Over IP phone number for several reasons.  I don&amp;rsquo;t have any illusions about actually remaining anonymous on the internet or anywhere else.  Gradually, I hope to expand my skillset, however, so that maybe every little thing I do is not tracked. If you find this interesting then check out Rob Braxman at &lt;a href=&#34;https://brax.me/&#34;&gt;BraxMe&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;After you have acquired a VOIP number and SIP credentials, you will need a way to use them.  A softphone, like &lt;a href=&#34;https://linphone.org&#34;&gt;Linphone&lt;/a&gt;, which is open source under the GNUv3 licence, is perfect.  You do not actually need a physical phone for your number.  You can use your PC or chromebook even.  &lt;a href=&#34;https://linphone.org&#34;&gt;Linphone&lt;/a&gt; is available for Linux, Windows, MacOS, iOS and Android.  I use my VOIP number as my main number now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Yes sir and Yes Ma&#39;am</title>
-      <link>http://localhost:1313/september2024/firstpost/</link>
+      <link>https://willcsmith.live/september2024/firstpost/</link>
       <pubDate>Thu, 05 Sep 2024 00:36:33 -0400</pubDate>
-      <guid>http://localhost:1313/september2024/firstpost/</guid>
+      <guid>https://willcsmith.live/september2024/firstpost/</guid>
       <description>&lt;p&gt;I have been wanting to try Hugo for a bit now so I finally decided to give it a try. The security aspect of not having a lot of surface area where vulnerabilities can be lurking is very appealing as well as just having a quick, responsive website.&lt;/p&gt;&#xA;&lt;p&gt;So, this will be my personal website where I will ramble about various things, mostly what I am studying.  Currently, I am studying for the Microsoft MS900.  Also, I want to be well acquainted with the CompTIA A+ material but am not sure if I am going to actually take the tests.  It might suffice to just be able to pass 7 or 8 practice tests.&lt;/p&gt;</description>
     </item>
   </channel>
